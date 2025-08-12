@@ -1,0 +1,7 @@
+Page\ProductPOM.class
+Base\BaseTest.class
+Util\ConfigReader.class
+Page\LoginPOM.class
+Util\WebDriverFactory.class
+Page\CartPOM.class
+Page\CheckoutPOM.class

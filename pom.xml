@@ -47,13 +47,6 @@
 			<version>5.1.1</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>7.7.1</version>
-			<scope>test</scope>
-		</dependency>
 		<!--
 		https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis -->
 		<dependency>
@@ -67,6 +60,27 @@
 			<groupId>io.rest-assured</groupId>
 			<artifactId>xml-path</artifactId>
 			<version>5.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.23.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.10.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.34</version> <!-- latest -->
+			<scope>provided</scope>
 		</dependency>
 		<!--<dependency>
 			<groupId>HybridApproachPOM</groupId>
@@ -86,6 +100,13 @@
 					<executable>${JAVA_HOME}/bin/javac</executable>
 					<source>21</source>
 					<target>21</target>
+					<compilerArgs>
+						<arg>--add-opens</arg>
+						<arg>
+							jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
+						<arg>--add-opens</arg>
+						<arg>jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED</arg>
+					</compilerArgs>
 				</configuration>
 			</plugin>
 			<plugin>
