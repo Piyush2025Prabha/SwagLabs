@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-12T20:45:26 IST" name="Suite" finished-at="2025-08-12T20:45:35 IST" duration-ms="9499">
+    <groups>
+    </groups>
+    <test started-at="2025-08-12T20:45:26 IST" name="Test.xml" finished-at="2025-08-12T20:45:35 IST" duration-ms="9499">
+      <class name="Base.BaseTest">
+        <test-method is-config="true" signature="extentReport()[pri:0, instance:Base.BaseTest@66d18979]" started-at="2025-08-12T20:45:25 IST" name="extentReport" finished-at="2025-08-12T20:45:26 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Base.BaseTest@66d18979]" started-at="2025-08-12T20:45:36 IST" name="afterTest" finished-at="2025-08-12T20:45:36 IST" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Base.BaseTest -->
+      <class name="tests.ApplicationTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.ApplicationTest@75db5df9]" started-at="2025-08-12T20:45:26 IST" name="beforeTest" finished-at="2025-08-12T20:45:30 IST" duration-ms="4042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="loginFunctionality()[pri:1, instance:tests.ApplicationTest@75db5df9]" started-at="2025-08-12T20:45:30 IST" name="loginFunctionality" finished-at="2025-08-12T20:45:31 IST" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method signature="AddProduct()[pri:2, instance:tests.ApplicationTest@75db5df9]" started-at="2025-08-12T20:45:31 IST" name="AddProduct" finished-at="2025-08-12T20:45:33 IST" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct -->
+        <test-method signature="CartVerification()[pri:3, instance:tests.ApplicationTest@75db5df9]" started-at="2025-08-12T20:45:33 IST" name="CartVerification" finished-at="2025-08-12T20:45:33 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartVerification -->
+        <test-method signature="Checkout()[pri:4, instance:tests.ApplicationTest@75db5df9]" started-at="2025-08-12T20:45:33 IST" name="Checkout" finished-at="2025-08-12T20:45:35 IST" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.ApplicationTest@75db5df9]" started-at="2025-08-12T20:45:35 IST" name="afterTest" finished-at="2025-08-12T20:45:35 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.ApplicationTest -->
+    </test> <!-- Test.xml -->
+  </suite> <!-- Suite -->
+</testng-results>
